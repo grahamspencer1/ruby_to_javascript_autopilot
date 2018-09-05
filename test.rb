@@ -1,7 +1,5 @@
-total = 0
-100.times do |num|
-  total += num
+def hello_world
+  puts "Hello world!"
 end
-puts total
 
-# 4950
+hello_world
