@@ -53,7 +53,14 @@ console.log(total);
 
 /////////////////////////////////////////////////
 
-
+var i;
+for(i = 3; i < 15; i++) {
+  if(i > 9) {
+    console.log("You can ride the rollercoaster!");
+  } else {
+    console.log("You're too short to ride.");
+  }
+}
 
 /////////////////////////////////////////////////
 
