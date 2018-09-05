@@ -1,4 +1,4 @@
-apples = 14;
+var apples = 14;
 console.log('I have ' + apples + ' apples.');
 
 /////////////////////////////////////////////////
@@ -11,3 +11,17 @@ var words = {
 }
 console.log(materials)
 console.log(words)
+
+/////////////////////////////////////////////////
+
+num = 11;
+
+if (num > 10) {
+  console.log(num + ' is greater than 10.');
+} else if (num === 10) {
+  console.log(num + ' is exactly 10.');
+} else if (num < 10) {
+  console.log(num + ' is less than 10.');
+}
+
+/////////////////////////////////////////////////
